@@ -1,1 +1,11 @@
-# orange
+## PersonaCare
+
+In the evolving landscape of healthcare, the integration of multimodal artificial intelligence (AI) and natural language processing (NLP) technologies has opened new avenues for personalized and efficient patient care. Our endeavor revolves around the development of a cutting-edge smart health consultant chatbot that leverages advanced language models and electronic health record (EHR) data to enhance the diagnostic and interactive capabilities of healthcare systems.
+
+The foundation of our chatbot lies in the utilization of EHR records as raw input, allowing for a comprehensive understanding of the patient's medical history and current health status. This serves as a crucial initial step, enabling our chatbot to tailor its responses and recommendations based on individualized patient data.
+
+To achieve a nuanced understanding of the user's medical condition, we employ state-of-the-art language models, specifically Large Language Models (LLM). These models are adept at processing vast amounts of textual data and extracting meaningful insights related to disease diagnostics. In particular, our integration with the OPENAI LLM model, enhanced by the llama index, serves as a reliable and robust **retrieval augmented generation (RAG)** for our system. This not only ensures accuracy in disease information retrieval but also provides a solid foundation for subsequent interactions.
+
+The core of our innovation lies in the interactive chat experience that unfolds between the chatbot and the patient. This dynamic interaction allows patients to articulate their queries in natural language, fostering a more user-friendly and accessible healthcare experience. Furthermore, our chatbot incorporates an **emotion classification** module, discerning the emotional state conveyed by the patient's input. This crucial component ensures that responses are not only accurate but also tailored to the patient's emotional context, preventing information overload and promoting a more empathetic interaction.
+
+![Model Overview](<EHR Data.jpg>)
